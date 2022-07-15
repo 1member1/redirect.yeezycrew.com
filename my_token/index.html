@@ -1,0 +1,8 @@
+<script>
+var type = window.location.hash.substr(1);
+var token = type.split("&")[0]
+token = token.split("=")[1];
+token
+if(token) document.write('Ваш токен, используйте его в софте для ручной авторизации: '+token);
+    else document.location.replace('https://lolz.guru/threads/2267161/');
+</script>
