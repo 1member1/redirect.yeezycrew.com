@@ -1,0 +1,7 @@
+<script>
+var type = window.location.hash.substr(1);
+var token = type.split("&")[0]
+token = token.split("=")[1];
+if(token) document.location.replace('http://localhost:5555/auth?token='+token);
+    else document.location.replace('https://lolz.guru/threads/2267161/');
+</script>
